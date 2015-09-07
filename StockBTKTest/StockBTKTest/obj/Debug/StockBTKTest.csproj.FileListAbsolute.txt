@@ -98,3 +98,4 @@ C:\Users\Слава\Desktop\works\StockBTKTest\StockBTKTest\bin\zh-Hans\System.S
 C:\Users\Слава\Desktop\works\StockBTKTest\StockBTKTest\bin\zh-Hant\System.Spatial.resources.dll
 C:\Users\Слава\Desktop\works\StockBTKTest\StockBTKTest\obj\Debug\StockBTKTest.dll
 C:\Users\Слава\Desktop\works\StockBTKTest\StockBTKTest\obj\Debug\StockBTKTest.pdb
+C:\Users\Слава\Desktop\works\StockBTKTest\StockBTKTest\obj\Debug\StockBTKTest.csprojResolveAssemblyReference.cache
