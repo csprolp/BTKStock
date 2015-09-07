@@ -28,14 +28,13 @@ namespace StockBTKTest.Controllers
         [Authorize]
         public ActionResult Details(int id = 0)
         {
-            Product product = db.Products.FirstOrDefault(p => p.ProductId == id);
-            var products = db.Products.Include(p => p.Category);
+            Product product = db.Products.Include(p => p.Category).SingleOrDefault(x => x.ProductId == id);
             //product = product.Category;
             if (product == null)
             {
                 return HttpNotFound();
             }
-            return View(products);
+            return View(product);
         }
 
         //
